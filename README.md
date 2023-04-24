@@ -1,9 +1,9 @@
-## GAS-Gmail-Trash-by-Expiry-Label
+# GAS-Gmail-Trash-by-Expiry-Label
  
 Google Apps Script that moves Gmail messages to TRASH based on a User Label containing a time offset which is then compared to the message's actual age. Labels can be manually applied or applied using a Gmail Filter.  The script uses regex to detect existing and new labels and multiple offset labels can hapily coexist.
 
 
-#### Label Syntax
+## Label Syntax
 This tool is not case sensitive. 
 ```
   <Label> = <prefix>[<sepparator01>]<delay>[<sepparator01>]<unit>
@@ -28,7 +28,7 @@ This tool is not case sensitive.
 
    [<sepparator02>]:  Optional, a single underscore, or non-word character (\W)  
 ```
-#### Test Mode Variables 
+## Test Mode Variables 
  - 1=enabled,  0=disabled (actually anything but 1) 
  - If testMode enabled, nothing actually gets moved to TRASH
  - Enabling useTestLabel is optional, and always ignored if testMode is disabled

@@ -5,9 +5,9 @@
  Labels can be manually applied or applied using a Gmail Filter.  The script uses 
  regex to detect existing and new labels and multiple offset labels can hapily coexist.
    
-  +------------- +
-  | Label Syntax |
-  +--------------+
+  ****************
+  * Label Syntax *
+  ****************
    🠖  Note: This tool is not case sensitive. 
 
   <Label> = <prefix>[<sepparator01>]<delay>[<sepparator01>]<unit>

@@ -1,5 +1,5 @@
 # GAS-Gmail-Trash-by-Expiry-Label
-
+/**
  Google Apps Script that moves Gmail messages to TRASH based on a User Label 
  containing a time offset which is then compared to the message's actual age.
  Labels can be manually applied or applied using a Gmail Filter.  The script uses 
@@ -110,4 +110,4 @@ E.  Create Trigger
 Constructive feedback is welcomed and, of course, please advise of any issues/bugs encountered.  
 
 
-
+*/
